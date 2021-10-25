@@ -1,0 +1,29 @@
+body {
+    background: #27ae60;
+}
+
+.auth-form {
+    position: absolute;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 10vh;
+}
+
+.auth-form form {
+    position: relative;
+    width: 50%;
+    height: 50vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.auth-form button {
+    background: #1dd510;
+    border-radius: 10px;
+}
+
+.error-message {
+    color: red;
+}
